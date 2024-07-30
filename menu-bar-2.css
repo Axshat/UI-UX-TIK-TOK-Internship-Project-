@@ -1,0 +1,209 @@
+.menu-icon1,
+.tik-tok-logo1 {
+  height: 37px;
+  width: 42px;
+  position: relative;
+}
+.tik-tok-logo1 {
+  height: 31px;
+  width: 32px;
+}
+.tiktok {
+  text-decoration: none;
+  height: 44px;
+  flex: 1;
+  position: relative;
+  font-weight: 800;
+  color: inherit;
+  display: inline-block;
+  z-index: 1;
+  margin-left: -10px;
+}
+.menu-parent,
+.tik-tok-logo-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.tik-tok-logo-parent {
+  flex: 1;
+}
+.menu-parent {
+  align-self: stretch;
+  gap: var(--gap-base);
+}
+.terms-of-service1 {
+  flex: 1;
+  position: relative;
+}
+.frame-parent16,
+.terms-of-service-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.terms-of-service-container {
+  width: 181px;
+  flex-direction: row;
+  padding: 0 var(--padding-base);
+  box-sizing: border-box;
+  font-size: var(--font-size-base);
+}
+.frame-parent16 {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-7xs);
+}
+.privacy-and-settings1 {
+  position: relative;
+}
+.logo-container,
+.privacy-and-settings-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.privacy-and-settings-wrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-2xl);
+  font-size: var(--font-size-base);
+  color: var(--tik-tok-dark);
+}
+.logo-container {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-7xl);
+}
+.category {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  color: inherit;
+}
+.category-wrapper,
+.logo-container-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.category-wrapper {
+  width: 167px;
+  flex-direction: row;
+  padding: 0 var(--padding-mid);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-600);
+  font-family: var(--font-alef);
+}
+.logo-container-parent {
+  width: 234px;
+  flex-direction: column;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-17xl);
+}
+.arts,
+.athietics,
+.dance,
+.food-and-drink,
+.hobbies,
+.production-and-manufacturing,
+.relationship,
+.tiktok-style,
+.tourism,
+.vehicles-and-transportation {
+  margin-block-start: 0;
+  margin-block-end: 20px;
+}
+.dance-arts-food-container {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.dance-arts-food-and-drink-tour-wrapper,
+.top-bar {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.dance-arts-food-and-drink-tour-wrapper {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-lg);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-base);
+}
+.top-bar {
+  flex-direction: column;
+  gap: var(--gap-7xs);
+  text-align: center;
+  font-size: 30px;
+}
+.frame-child18,
+.tik-tok {
+  position: relative;
+}
+.frame-child18 {
+  height: 31px;
+  width: 206px;
+  display: none;
+}
+.english {
+  text-decoration: none;
+  width: 84px;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.vector-container {
+  align-self: stretch;
+  background-color: var(--schemes-on-primary);
+  border: 0 solid var(--color-black);
+  flex-direction: row;
+  padding: var(--padding-8xs) var(--padding-6xs) var(--padding-7xs);
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+}
+.brand-info,
+.footer,
+.menu-bar-2,
+.vector-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.brand-info {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-7xs);
+}
+.footer,
+.menu-bar-2 {
+  width: 268px;
+  flex-direction: row;
+  padding: 0 var(--padding-12xl);
+  box-sizing: border-box;
+}
+.menu-bar-2 {
+  width: 100%;
+  position: relative;
+  background-color: var(--schemes-on-primary);
+  overflow: hidden;
+  flex-direction: column;
+  padding: 26px var(--padding-smi) var(--padding-2xl) 0;
+  gap: 127px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-600);
+  font-family: var(--font-inter);
+}
